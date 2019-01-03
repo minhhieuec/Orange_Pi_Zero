@@ -11,5 +11,6 @@ Orange Pi Zero examples
 ============	TEST ALSA LIB	===================	<br>
 <b>play wav file:</b>		sudo aplay ChillingMusic.wav	<br>
 
-<b>test MIC</b>		arecord -d 5 test-mic.wav	<br>
-			aplay test-mic.wav		<br>
+<b>test MIC:</b>		arecord -d 5 test-mic.wav
+
+aplay test-mic.wav		<br>
