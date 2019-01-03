@@ -14,3 +14,13 @@ Orange Pi Zero examples
 <b>test MIC:</b>		arecord -d 5 test-mic.wav
 
 aplay test-mic.wav		<br>
+
+
+
+
+			UART
+
+- show uart com:	dmesg|grep -u tty
+
+- /dev/ttyS1:	pin 8 (Tx) & pin 10 (Rx)
+- /dev/ttyS2:	pin 11 (Rx) & pin 13 (Tx)
